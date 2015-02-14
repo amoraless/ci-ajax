@@ -38,10 +38,12 @@
 |
 */
 
-$route['default_controller'] = "welcome/form_buscar";
+$route['default_controller'] = "c_ajax";
 $route['ur_buscar/func_buscar']="welcome/buscar";
 $route['404_override'] = '';
 
+/*ajax*/
+$route['ajax_eliminar/eliminar']="c_ajax/fun_eliminar";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

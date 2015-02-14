@@ -1,4 +1,3 @@
-
 <form action="<?php echo base_url();?>welcome/actions/<?php echo (isset($id)!='')?$id:''; ?>" method="post">
 	<table>
 		<tr style="<?php echo (isset($id)!='')?'':'display: none;'; ?>">

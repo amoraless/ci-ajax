@@ -7,5 +7,7 @@
 	<script type="text/javascript" src="<?php echo base_url();?>resource/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>resource/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>resource/js/mijs.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>resource/js/mi-ajax.js"></script>
+
 </head>
 <body>
