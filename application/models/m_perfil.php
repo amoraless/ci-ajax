@@ -11,4 +11,13 @@ class M_perfil extends CI_Model {
 		$query=$this->db->delete('perfil',$data);
 		return $query;
 	}
+	public function insert($data){
+		
+		$query=$this->db->insert('perfil', $data);
+
+		
+
+		return $query;
+
+	}
 }

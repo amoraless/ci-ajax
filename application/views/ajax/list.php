@@ -1,4 +1,5 @@
-<table id="listar_alumno" class="table table-striped table-hover">
+<div id="contenedor_tabla">
+	<table id="listar_alumno" class="table table-striped table-hover">
 		<thead>
 			<th width="5%">id</th>
 			<th width="30%">nombre</th>
@@ -26,3 +27,4 @@
 			<?php } ?>
 		</tbody>
 	</table>
+</div>

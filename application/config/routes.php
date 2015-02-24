@@ -44,6 +44,7 @@ $route['404_override'] = '';
 
 /*ajax*/
 $route['ajax_eliminar/eliminar']="c_ajax/fun_eliminar";
+$route['ajax_guardar/guardar']="c_ajax/fun_guargar";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

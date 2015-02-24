@@ -1,6 +1,6 @@
-<form action="" method="post">
+<form action="" method="post" id="form_alumno"  onsubmit="return false;">
 	<table>
-		<tr style="">
+		<tr style="display: none;">
 			<td><label>id: </label></td>
 			<td><input type="text" name="id" value=""/></td>
 		</tr>
@@ -17,7 +17,7 @@
 			<td><input type="text" name="edad" value="" /></td>
 		</tr>
 		<tr>
-			<td><label>edad: </label></td>
+			<td><label>estado: </label></td>
 			<td><input type="text" name="estado" value="" /></td>
 		</tr>
 		<tr>
